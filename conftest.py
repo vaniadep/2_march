@@ -5,7 +5,6 @@ from schemas.user import UserSchema
 
 @pytest.fixture(scope="session")
 def base_url():
-    """Фикстура возвращает базовый URL API."""
     return "https://jsonplaceholder.typicode.com"
 
 
